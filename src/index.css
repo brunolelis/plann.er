@@ -9,3 +9,16 @@
 input {
   color-scheme: dark;
 }
+
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-caption-font-size: 18px;
+  --rdp-accent-color: #BEF264;
+  --rdp-accent-color-dark: #BEF264;
+  --rdp-background-color: #BEF264;
+  --rdp-background-color-dark: #BEF264;
+  --rdp-outline: 2px solid var(--rdp-accent-color);
+  --rdp-outline-selected: 3px solid var(--rdp-accent-color);
+  --rdp-selected-color: #000;
+  --rdp-hover-color: #000;
+}
